@@ -21,6 +21,7 @@ Example manifest:
 ```json
 {
   "name": "my-new-plugin",
+  "displayName": "My New Plugin",
   "version": "0.1.0",
   "description": "Describe what this plugin does",
   "author": {

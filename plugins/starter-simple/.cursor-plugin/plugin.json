@@ -1,5 +1,6 @@
 {
   "name": "starter-simple",
+  "displayName": "Simple Starter",
   "version": "0.1.0",
   "description": "Minimal Cursor plugin starter with rules and skills.",
   "author": {

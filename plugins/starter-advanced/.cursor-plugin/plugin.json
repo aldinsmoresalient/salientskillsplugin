@@ -1,5 +1,6 @@
 {
   "name": "starter-advanced",
+  "displayName": "Advanced Starter",
   "version": "0.1.0",
   "description": "Full-featured Cursor plugin starter with rules, skills, agents, commands, hooks, and MCP.",
   "author": {
