@@ -1,34 +1,45 @@
-# Cursor plugin template
+# Salient Skills
 
-Build and publish Cursor Marketplace plugins from a single repo.
+A Cursor plugin with specialized skills for docs, design, testing, communication, and automation workflows.
 
-Two starter plugins are included:
+## Skills
 
-- **starter-simple**: rules and skills only
-- **starter-advanced**: rules, skills, agents, commands, hooks, MCP, and scripts
+| Skill | Description |
+|-------|-------------|
+| **brand-design** | Salient brand design system and visual identity guidelines |
+| **canvas-design** | Create visual art in .png and .pdf using design philosophy |
+| **claude-md-improver** | Audit and improve CLAUDE.md files in repositories |
+| **docs-sync** | Sync documentation with codebase implementation |
+| **frontend-design** | Production-grade frontend interfaces with high design quality |
+| **pdf** | PDF manipulation: extract, create, merge, split, and fill forms |
+| **pptx** | Presentation creation, editing, and analysis |
+| **skill-creator** | Guide for creating new skills |
+| **slack-gif-creator** | Create animated GIFs optimized for Slack |
 
-## Getting started
+## Installation
 
-[Use this template](https://github.com/cursor/plugin-template/generate) to create a new repository, then customize:
+Install from the Cursor Marketplace, or sideload from this repository URL:
 
-1. `.cursor-plugin/marketplace.json`: set marketplace `name`, `owner`, and `metadata`.
-2. `plugins/*/.cursor-plugin/plugin.json`: set `name` (lowercase kebab-case), `displayName`, `author`, `description`, `keywords`, `license`, and `version`.
-3. Replace placeholder rules, skills, agents, commands, hooks, scripts, and logos.
+```
+https://github.com/aldinsmoresalient/salientskillsplugin
+```
 
-To add more plugins, see `docs/add-a-plugin.md`.
+## Structure
 
-## Single plugin vs multi-plugin
-
-This template defaults to **multi-plugin** (multiple plugins in one repo).
-
-For a **single plugin**, move your plugin folder contents to the repository root, keep one `.cursor-plugin/plugin.json`, and remove `.cursor-plugin/marketplace.json`.
-
-## Submission checklist
-
-- Each plugin has a valid `.cursor-plugin/plugin.json`.
-- Plugin names are unique, lowercase, and kebab-case.
-- `.cursor-plugin/marketplace.json` entries map to real plugin folders.
-- All frontmatter metadata is present in rule, skill, agent, and command files.
-- Logos are committed and referenced with relative paths.
-- `node scripts/validate-template.mjs` passes.
-- Repository link is ready for submission to the Cursor team (Slack or `kniparko@anysphere.com`).
+```
+salientskillsplugin/
+├── .cursor-plugin/
+│   └── plugin.json
+├── skills/
+│   ├── brand-design/
+│   ├── canvas-design/
+│   ├── claude-md-improver/
+│   ├── docs-sync/
+│   ├── frontend-design/
+│   ├── pdf/
+│   ├── pptx/
+│   ├── skill-creator/
+│   └── slack-gif-creator/
+├── THIRD_PARTY_NOTICES.md
+└── README.md
+```
