@@ -1,19 +1,19 @@
 {
-  "name": "cursor-plugin-starters",
+  "name": "salient-skills-marketplace",
   "owner": {
-    "name": "Your Org",
-    "email": "plugins@example.com"
+    "name": "Alejandro Dinsmore",
+    "email": "alejandrodinsmore@gmail.com"
   },
   "metadata": {
-    "description": "Starter marketplace template for Cursor plugins",
-    "version": "0.1.0",
+    "description": "Salient skills for docs, design, and automation workflows",
+    "version": "1.0.0",
     "pluginRoot": "plugins"
   },
   "plugins": [
     {
       "name": "salient-skills",
-      "source": "./salient-skills",
-      "description": "Comprehensive skills collection adapted from the salient-skills repository"
+      "source": "plugins/salient-skills",
+      "description": "Comprehensive skill library for docs, design, testing, communication, and automation workflows."
     }
   ]
 }
