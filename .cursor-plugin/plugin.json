@@ -1,6 +1,8 @@
 {
   "name": "salient-skills",
+  "displayName": "Salient Skills",
   "version": "1.0.0",
+  "logo": "assets/logo.svg",
   "description": "Comprehensive skill library for docs, design, testing, communication, and automation workflows.",
   "author": {
     "name": "Alejandro Dinsmore",
