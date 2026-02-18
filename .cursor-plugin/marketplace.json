@@ -11,14 +11,9 @@
   },
   "plugins": [
     {
-      "name": "starter-simple",
-      "source": "./plugins/starter-simple",
-      "description": "Minimal plugin with rules and skills only"
-    },
-    {
-      "name": "starter-advanced",
-      "source": "./plugins/starter-advanced",
-      "description": "Full-featured plugin with rules, skills, agents, commands, hooks, and MCP"
+      "name": "salient-skills",
+      "source": "./salient-skills",
+      "description": "Comprehensive skills collection adapted from the salient-skills repository"
     }
   ]
 }

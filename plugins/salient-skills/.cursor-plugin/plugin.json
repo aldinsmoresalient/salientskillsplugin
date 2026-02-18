@@ -1,0 +1,19 @@
+{
+  "name": "salient-skills",
+  "displayName": "Salient Skills",
+  "version": "1.0.0",
+  "description": "Comprehensive skill library for docs, design, testing, communication, and automation workflows.",
+  "author": {
+    "name": "Alejandro Dinsmore",
+    "email": "alejandrodinsmore@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cursor",
+    "plugin",
+    "skills",
+    "automation",
+    "documentation",
+    "testing"
+  ]
+}
